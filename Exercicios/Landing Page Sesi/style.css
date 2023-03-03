@@ -1,0 +1,197 @@
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------ CSS Menu ---------*/
+
+
+.menu a{
+    text-decoration: none;
+
+}
+.menu li{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+.menu li ul{
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    display: none;
+    
+
+}
+.menu li:hover ul {
+   display: block;
+   width: 150px;
+   padding: 0;
+
+}
+
+
+ul a {
+    color: #ffffff;
+}
+ul a:hover {
+    color: rgb(132,14,201);
+    transition: 0.3s all;
+}
+
+#pedido{
+    border: 2px solid rgb(132,14,201);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#pedido:hover{
+    background-color: rgb(132,14,201) ;
+    color: #ffffff;
+}
+
+/* --- Banner --- */
+
+main article img {
+    max-width: 750px;
+}
+
+/*------*/
+#logo img {
+    max-width: 40%;
+}
+
+
+h1{
+    font-weight: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/*---Banner2---*/
+
+
+section figure img{
+    max-width: 500px;
+}
+
+section{
+    display: flex;
+    border-top: 1px solid #ffffff;
+    margin-top: 70px;
+    padding: 70px;
+    align-items: center;
+}
+
+section article p{
+    font-size: 20px;
+}
+
+section article h2{
+    text-align: center;
+}
+
+
+/*---Fim Banner2---*/
+
+
+
+/*--- Texto ---*/
+p{
+    line-height: 20px;
+    max-width: 500px;
+    margin: 20px 15px;
+}
+
+h2{
+    font-size: 43px;
+    margin: 0px;
+}
+
+h2 span {
+    color: rgb(132,14,201);
+}
+
+/* --- Formulário --- */
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form input[type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132,14,201);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    opacity: 0.7;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+}
+
+
+/* -- Footer -- */
+
+footer{
+    height: 50px;
+    background-color: #000000;
+    margin-top: 25px;
+}
+
+address{
+    text-align: center;
+}
+
+nav.redes ul li img {
+    max-width: 30px;
+}
+nav.redes{
+    text-align: center;
+    border-top: 1px solid #ffffff;
+}
+
+.redes ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a#whatsapp_fixo img {
+    width: 85px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+}
+
